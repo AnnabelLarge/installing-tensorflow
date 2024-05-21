@@ -1,5 +1,6 @@
-This is a tensorflow install with:
-===================================
+Tensorflow installation
+========================
+This is a tensorflow install with:  
 1. nvidia drivers 535  
 2. cuda 12.2  
 3. cuDNN 8.9  
@@ -38,10 +39,9 @@ Following recommendation from: https://blog.tensorflow.org/2023/12/tensorflow-21
 `pip install tensorflow[and-cuda]==2.15.0.post1`
 
 
-6.) test it out
-----------------
-I clipped some commands from https://learnopencv.com/implementing-mlp-tensorflow-keras/ and pasted into: `mlp_test.py`. Run this script to see if tensorflow can train a neural model.
-
+test it out
+------------
+I clipped some commands from https://learnopencv.com/implementing-mlp-tensorflow-keras/ and pasted into: `TF_mlp_test.py`. Run this script to see if tensorflow can train a neural model.
 
 
 misc: remove all traces of nvidia and start over:
@@ -51,7 +51,31 @@ In this order:
 `sudo apt-get --purge remove "*cublas*" "*cuda*" "nsight*"`  
 `sudo rm -rf /usr/local/cuda*`  
 
+***STOP HERE IF YOU ONLY WANT TENSORFLOW***
 
-why did I write this guide?
+Jax installation:
+==================
+1. clone tf_env to new jax_env
+2. uninstall tensorflow, install pytorch
+3. install Jax and friends
+
+Using pytorch dataloaders:
 ---------------------------
-I kept having issues with Jax (and tensorflow) not being able to see my cuDNN installation. Jax installation has yet to be verified, but a good first step is to try installing tensorflow first. 
+I use pytorch dataloaders with Jax models, so I chose to install pytorch. Technically this replaces current cuda install with cuda 12.1 (which is what pytorch ships with). As long as jax can run, I'm not too pressed about this.  
+Uninstall tensorflow: `pip uninstall tensorflow`.  
+Install using the Pip instructions at: https://pytorch.org/get-started/locally/  
+Final jax environment at: `jax_env.yml`
+
+Use tensorflow dataloaders:
+----------------------------
+Tensorflow 2.15.0.post1 uses ml-dtypes~=0.2.0, but Jax uses ml-dtypes 0.4.0. I don't know how you resolve this; I guess you'd try a different tensorflow installation? ¯\_(ツ)_/¯  
+
+install Jax and friends:
+-------------------------
+`pip install -U "jax[cuda12]"`  
+Plus install with pip: Flax, Orbax, Optax, Diffrax
+
+test it out
+------------
+I clipped some commands from https://huggingface.co/flax-community/NeuralODE_SDE/blame/955a729c0c2041e2bae8c4b3a41e3dea922bda14/models/mlp.py and pasted into: `JAX_mlp_test.py`. Run this script to see if Jax can train a neural model. Note that this does not include testing the pytorch dataloaders.
+
