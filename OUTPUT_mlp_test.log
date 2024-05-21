@@ -1,0 +1,77 @@
+(tf_env) annabel@Ada:~/Research_wd/tensorflow_test$ python mlp_test.py 
+2024-05-20 18:25:48.885819: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-05-20 18:25:48.906140: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-05-20 18:25:48.906159: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-05-20 18:25:48.906752: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-20 18:25:48.910069: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-20 18:25:49.257804: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-05-20 18:25:49.674670: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.674782: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.692493: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.692627: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.692698: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.692759: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.776844: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.776938: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.777024: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.777079: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.777133: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.777187: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.783132: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.783249: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.783321: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.783381: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.783441: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.783503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 46707 MB memory:  -> device: 0, name: NVIDIA RTX A6000, pci bus id: 0000:01:00.0, compute capability: 8.6
+2024-05-20 18:25:49.783771: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-05-20 18:25:49.783831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 46864 MB memory:  -> device: 1, name: NVIDIA RTX A6000, pci bus id: 0000:04:00.0, compute capability: 8.6
+Epoch 1/21
+2024-05-20 18:25:50.509872: I external/local_xla/xla/service/service.cc:168] XLA service 0x7ac72b9258d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-05-20 18:25:50.509890: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA RTX A6000, Compute Capability 8.6
+2024-05-20 18:25:50.509892: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (1): NVIDIA RTX A6000, Compute Capability 8.6
+2024-05-20 18:25:50.512908: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-05-20 18:25:50.519439: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8904
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1716254750.551201    5401 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+782/782 [==============================] - 4s 4ms/step - loss: 0.2833 - accuracy: 0.9173 - val_loss: 0.1755 - val_accuracy: 0.9450
+Epoch 2/21
+782/782 [==============================] - 3s 4ms/step - loss: 0.1203 - accuracy: 0.9635 - val_loss: 0.1262 - val_accuracy: 0.9641
+Epoch 3/21
+782/782 [==============================] - 2s 3ms/step - loss: 0.0834 - accuracy: 0.9738 - val_loss: 0.1270 - val_accuracy: 0.9624
+Epoch 4/21
+782/782 [==============================] - 3s 4ms/step - loss: 0.0631 - accuracy: 0.9799 - val_loss: 0.0923 - val_accuracy: 0.9737
+Epoch 5/21
+782/782 [==============================] - 3s 4ms/step - loss: 0.0492 - accuracy: 0.9850 - val_loss: 0.1087 - val_accuracy: 0.9729
+Epoch 6/21
+782/782 [==============================] - 1s 1ms/step - loss: 0.0398 - accuracy: 0.9878 - val_loss: 0.0989 - val_accuracy: 0.9731
+Epoch 7/21
+782/782 [==============================] - 1s 1ms/step - loss: 0.0320 - accuracy: 0.9897 - val_loss: 0.0972 - val_accuracy: 0.9759
+Epoch 8/21
+782/782 [==============================] - 1s 1ms/step - loss: 0.0257 - accuracy: 0.9913 - val_loss: 0.0913 - val_accuracy: 0.9765
+Epoch 9/21
+782/782 [==============================] - 2s 2ms/step - loss: 0.0219 - accuracy: 0.9927 - val_loss: 0.1338 - val_accuracy: 0.9706
+Epoch 10/21
+782/782 [==============================] - 2s 2ms/step - loss: 0.0178 - accuracy: 0.9942 - val_loss: 0.1139 - val_accuracy: 0.9771
+Epoch 11/21
+782/782 [==============================] - 3s 3ms/step - loss: 0.0153 - accuracy: 0.9950 - val_loss: 0.1085 - val_accuracy: 0.9783
+Epoch 12/21
+782/782 [==============================] - 2s 3ms/step - loss: 0.0112 - accuracy: 0.9964 - val_loss: 0.1098 - val_accuracy: 0.9787
+Epoch 13/21
+782/782 [==============================] - 4s 5ms/step - loss: 0.0104 - accuracy: 0.9967 - val_loss: 0.1357 - val_accuracy: 0.9770
+Epoch 14/21
+782/782 [==============================] - 1s 1ms/step - loss: 0.0084 - accuracy: 0.9973 - val_loss: 0.1422 - val_accuracy: 0.9751
+Epoch 15/21
+782/782 [==============================] - 2s 2ms/step - loss: 0.0079 - accuracy: 0.9975 - val_loss: 0.1177 - val_accuracy: 0.9792
+Epoch 16/21
+782/782 [==============================] - 3s 4ms/step - loss: 0.0064 - accuracy: 0.9979 - val_loss: 0.1611 - val_accuracy: 0.9765
+Epoch 17/21
+782/782 [==============================] - 1s 1ms/step - loss: 0.0053 - accuracy: 0.9983 - val_loss: 0.1488 - val_accuracy: 0.9779
+Epoch 18/21
+782/782 [==============================] - 2s 3ms/step - loss: 0.0052 - accuracy: 0.9982 - val_loss: 0.1472 - val_accuracy: 0.9783
+Epoch 19/21
+782/782 [==============================] - 1s 1ms/step - loss: 0.0043 - accuracy: 0.9987 - val_loss: 0.1492 - val_accuracy: 0.9776
+Epoch 20/21
+782/782 [==============================] - 2s 2ms/step - loss: 0.0027 - accuracy: 0.9991 - val_loss: 0.1404 - val_accuracy: 0.9797
+Epoch 21/21
+782/782 [==============================] - 3s 4ms/step - loss: 0.0027 - accuracy: 0.9990 - val_loss: 0.1717 - val_accuracy: 0.9771
