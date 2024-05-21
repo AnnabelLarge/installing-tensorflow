@@ -32,8 +32,9 @@ installed with: `sudo dpkg -i cudnn-local-repo-ubuntu2204-8.9.7.29_1.0-1_amd64.d
 Created a new conda environment for tensorflow. Full package list in `tf_env.yml`
 
 
-5.) tensorflow 2.15.0.post1
----------------------------
+5.) tensorflow 2.15
+--------------------
+Following recommendation from: https://blog.tensorflow.org/2023/12/tensorflow-215-update-hot-fix-linux-installation-issue.html  
 `pip install tensorflow[and-cuda]==2.15.0.post1`
 
 
