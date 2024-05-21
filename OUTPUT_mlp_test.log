@@ -1,4 +1,4 @@
-(tf_env) annabel@Ada:~/Research_wd/tensorflow_test$ python mlp_test.py 
+(tf_env) annabel@Ada:~/Research_wd/tensorflow_test$ python TF_mlp_test.py 
 2024-05-20 18:25:48.885819: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 2024-05-20 18:25:48.906140: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
 2024-05-20 18:25:48.906159: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
@@ -75,3 +75,19 @@ Epoch 20/21
 782/782 [==============================] - 2s 2ms/step - loss: 0.0027 - accuracy: 0.9991 - val_loss: 0.1404 - val_accuracy: 0.9797
 Epoch 21/21
 782/782 [==============================] - 3s 4ms/step - loss: 0.0027 - accuracy: 0.9990 - val_loss: 0.1717 - val_accuracy: 0.9771
+
+
+(jax_with_pytorch) annabel@Ada:~/Research_wd/jax_test$ python Jax_mlp_test.py 
+x shape: (20, 10) ; y shape: (20, 5)
+Loss step 0:  32.20229
+Loss step 10:  0.4712188
+Loss step 20:  0.10576188
+Loss step 30:  0.036636997
+Loss step 40:  0.018958664
+Loss step 50:  0.013874781
+Loss step 60:  0.012311237
+Loss step 70:  0.011811689
+Loss step 80:  0.011648742
+Loss step 90:  0.01159504
+Loss step 100:  0.011577226
+
