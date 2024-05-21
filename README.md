@@ -61,7 +61,7 @@ Jax installation:
 
 Using pytorch dataloaders:
 ---------------------------
-I use pytorch dataloaders with Jax models, so I chose to install pytorch. Technically this replaces current cuda install with cuda 12.1 (which is what pytorch ships with). As long as jax can run, I'm not too pressed about this.  
+I use pytorch dataloaders with Jax models, so I chose to install pytorch. Technically this installs cuda 12.1 (which is what pytorch ships with). As long as jax can run, I'm not too pressed about this.  
 Uninstall tensorflow: `pip uninstall tensorflow`.  
 Install using the Pip instructions at: https://pytorch.org/get-started/locally/  
 Final jax environment at: `jax_env.yml`
