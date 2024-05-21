@@ -68,7 +68,7 @@ Final jax environment at: `jax_env.yml`
 
 Use tensorflow dataloaders:
 ----------------------------
-Tensorflow 2.15.0.post1 uses ml-dtypes~=0.2.0, but Jax uses ml-dtypes 0.4.0. I don't know how you resolve this; I guess you'd try a different tensorflow installation? ¯\_(ツ)_/¯  
+Tensorflow 2.15.0.post1 uses ml-dtypes~=0.2.0, but Jax uses ml-dtypes 0.4.0. I don't know how you resolve this; I guess you'd try a different tensorflow installation? ¯\\_(ツ)_/¯  
 
 install Jax and friends:
 -------------------------
